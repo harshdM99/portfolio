@@ -11,7 +11,7 @@ body {
 
 /* Body Header */
 #body-header{
-    background-image: url("static/body_background_2.jpg");
+    background-image: url("static/body_background.jpg");
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,11 +134,13 @@ section {
 #about p {
     font-size: 1.2rem;
     margin: 4vh 20vw 4vh 20vw;
-    color: darkgray;
+    /* color: darkgray; */
+    color: rgb(127, 127, 127);
     font-weight: 600;
 }
 #about span {
     color: var(--section-color-blue);
+    font-weight: 900;
 }
 
 /* SKILLS section */
@@ -182,6 +184,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 20px;
     /* border: 2px solid black; */
 }
 #portfolio-container .portfolio-box{
@@ -431,16 +434,18 @@ section {
 }
 
 
-
 /* Background Colours */
-.blue-bg {
+.blue-bg-1 {
+    background-color: rgb(83, 38, 219);
+}
+.blue-bg-2 {
+    background-color: rgb(70, 72, 131);
+}
+.blue-bg-3 {
     background-color: rgb(56, 56, 174);
 }
-.orange-bg {
-    background-color: orange;
-}
-.violet-bg {
-    background-color: rgb(136, 30, 136);
+.blue-bg-4 {
+    background-color: rgb(16, 2, 58);
 }
 
 /* Percentage classes */
