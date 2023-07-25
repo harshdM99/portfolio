@@ -209,10 +209,9 @@ section {
     text-align: center;
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     font-size: 1.6rem;
     color: white;
-    transition: all 0.5s ease-in-out;
     background-color: #80808078;
     box-shadow: 0px 0px 20px #74ADC8;
     display: flex;
@@ -221,7 +220,7 @@ section {
 }
 .portfolio-details a {
     color: white;
-    padding: 60px;
+    padding: 10px;
     /* margin-top: 250px; */
     /* border: 2px solid brown; */
 }
