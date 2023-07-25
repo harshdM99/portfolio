@@ -11,7 +11,7 @@ body {
 
 /* Body Header */
 #body-header{
-    background-image: url("static/body_background.jpg");
+    background-image: url("static/body_background-min.jpg");
     height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
