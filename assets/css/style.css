@@ -16688,6 +16688,15 @@ span.sr-only {
     text-align: center;
   }
 }
+/* New CSS for reordering columns */
+@media only screen and (min-width: 992px) {
+  .rn-about-area .col-lg-5 {
+      order: 2; /* Image column second */
+  }
+  .rn-about-area .col-lg-7 {
+      order: 1; /* Text column first */
+  }
+}
 
 .sticky-home-wrapper .section-height {
   padding: 35px 40px 40px;
