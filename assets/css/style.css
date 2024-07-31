@@ -39,6 +39,10 @@
 /* Default  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@400;600;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@400;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap");
+
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
@@ -11252,6 +11256,13 @@ body.template-color-1 {
     padding: 0;
   }
 }
+/* IF LOGO IS TEXT */
+.header-left .logo{
+  font-family: "Lobster Two", sans-serif;
+  letter-spacing: 1px; 
+  font-weight: 700;
+}
+/* IF LOGO IS IMAGE */
 .sticky .header-wrapper .logo img {
   max-width: 90%;
 }
