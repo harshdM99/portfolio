@@ -12854,6 +12854,11 @@ figcaption {
   opacity: 0;
   z-index: -1;
 }
+.slide .social-share-inner-left .social-share li a i {
+  /* width: 70%;
+  height: 70%; */
+  font-size: 18px;
+}
 .slide .social-share-inner-left .social-share li a svg {
   color: var(--color-lightn);
   transition: var(--transition);
