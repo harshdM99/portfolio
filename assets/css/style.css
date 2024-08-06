@@ -17418,7 +17418,7 @@ span.sr-only {
 .footer-style-2 .menu-wrapper .menu-footer li a::after {
   content: "";
   position: absolute;
-  width: 70%;
+  width: 100%;
   background-color: var(--color-primary);
   height: 0px;
   left: 0;
@@ -17428,6 +17428,7 @@ span.sr-only {
 }
 .footer-style-2 .menu-wrapper .menu-footer li a:hover {
   color: var(--color-light);
+  cursor: pointer;
 }
 .footer-style-2 .menu-wrapper .menu-footer li a:hover::after {
   height: 12px;
