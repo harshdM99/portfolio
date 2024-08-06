@@ -14664,8 +14664,34 @@ div#featured-project-carousel {
     padding: 20px;
   }
 }
+
+/* 
+.experience-style-two .experience-center {
+  padding-left: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .experience-style-two .experience-center {
+    padding-left: 20px;
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .experience-style-two .experience-center {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .experience-style-two .experience-center {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+} */
+
+
+
 .experience-style-two .experience-image {
-  max-width: 250px;
+  max-width: 150px;
   height: auto;
   border-radius: 8px;
   transition: var(--transition);
@@ -14698,6 +14724,7 @@ div#featured-project-carousel {
   align-items: center;
   flex-basis: 80%;
   flex-wrap: wrap;
+  /* width: 100%; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience-style-two .experience-left {
@@ -14715,7 +14742,12 @@ div#featured-project-carousel {
   }
 }
 .experience-style-two .experience-center {
-  padding-left: 30px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience-style-two .experience-center {
@@ -14775,17 +14807,17 @@ div#featured-project-carousel {
     line-height: 1.5;
   }
 }
-.experience-style-two .experience-center .disc {
+.experience-style-two .disc {
   font-size: 16px;
   color: var(--color-body);
 }
 .experience-style-two .experience-right {
-  flex-basis: 20%;
-  text-align: right;
+  flex-basis: 80%;
+  text-align: left;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience-style-two .experience-right {
-    flex-basis: 30%;
+    flex-basis: 80%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14812,6 +14844,13 @@ div#featured-project-carousel {
   .experience-style-two .experience-footer {
     margin-top: 20px;
   }
+}
+
+/*=========================
+    Education Styles 
+==========================*/
+#educations .experience-right {
+  flex-basis: 30%;
 }
 
 /*=========================
