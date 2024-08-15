@@ -17273,7 +17273,7 @@ span.sr-only {
 .skill-style-1 li {
   text-align: center;
   box-shadow: var(--shadow-1);
-  margin-right: 40px;
+  margin-right: 20px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -17283,9 +17283,9 @@ span.sr-only {
   margin-top: 0;
   margin-bottom: 40px;
   padding: 20px 30px;
-  flex-basis: 20%;
+  /* flex-basis: 20%; */
   padding: 35px 30px;
-  min-height: 130px;
+  min-height: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .skill-style-1 li {
