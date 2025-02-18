@@ -7143,8 +7143,8 @@ Custom Row
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .row--25 > [class*=col], .row--25 > [class*=col-] {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14646,13 +14646,13 @@ div#featured-project-carousel {
 
 .experience-style-two {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px;
   box-shadow: var(--shadow-1);
   border-radius: 10px;
   margin: 40px auto 0;
-  width: 90%;
+  width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .experience-style-two {
@@ -14729,7 +14729,7 @@ div#featured-project-carousel {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience-style-two .experience-left {
-    flex-basis: 70%;
+    flex-basis: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14884,7 +14884,7 @@ div#featured-project-carousel {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .experience-style-two .education-center {
     padding-left: 20px;
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
