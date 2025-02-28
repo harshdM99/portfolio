@@ -17574,6 +17574,18 @@ span.sr-only {
   transition: 0.5s all ease-in-out;
   display: inline-block;
 }
+
+.rn-portfolio .inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  height: auto;
+  transition: 0.5s all ease-in-out;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-portfolio,
 .rn-blog {
@@ -17585,6 +17597,10 @@ span.sr-only {
 .rn-blog {
     padding: 20px;
   }
+}
+.rn-portfolio .inner .thumbnail{
+  flex: 1;
+  max-width: 45%;
 }
 .rn-portfolio .inner .thumbnail a,
 .rn-blog .inner .thumbnail a {
@@ -17598,6 +17614,7 @@ span.sr-only {
   transition: var(--transition);
   height: auto;
   object-fit: cover;
+  display: block;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-portfolio .inner .thumbnail a img,
@@ -17622,12 +17639,15 @@ span.sr-only {
 .rn-portfolio .inner .content,
 .rn-blog .inner .content {
   padding-top: 18px;
+  flex: 1;
+  max-width: 50%;
+  text-align: left;
 }
 .rn-portfolio .inner .content .category-info,
 .rn-blog .inner .content .category-info {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 .rn-portfolio .inner .content .category-info .category-list,
 .rn-blog .inner .content .category-info .category-list {
@@ -17640,7 +17660,7 @@ span.sr-only {
   color: var(--color-primary);
   font-weight: 500;
   font-family: var(--font-primary);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   display: block;
@@ -17650,7 +17670,7 @@ span.sr-only {
   color: var(--color-lightn);
   font-weight: 500;
   font-family: var(--font-primary);
-  font-size: 13px;
+  font-size: 16px;
 }
 .rn-portfolio .inner .content .category-info .meta span i,
 .rn-blog .inner .content .category-info .meta span i {
@@ -17672,8 +17692,8 @@ span.sr-only {
 .rn-blog .inner .content .title a {
   transition: var(--transition);
   color: var(--color-lightn);
-  font-weight: 600;
-  font-size: 23px;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 34px;
   display: inline-block;
 }
@@ -17684,6 +17704,26 @@ span.sr-only {
     line-height: 30px;
   }
 }
+.rn-portfolio .inner .content .title .project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.rn-portfolio .inner .content .title .project-links a {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.rn-portfolio .inner .content .title .project-links a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .rn-portfolio .inner .content .title a i,
 .rn-blog .inner .content .title a i {
   font-size: 0;
@@ -17789,6 +17829,38 @@ span.sr-only {
 
 .portfolio-slick-activation .rn-portfolio-slick {
   padding: 35px 15px;
+  width: 100%;
+  max-width: 1000px; /* Make each project card bigger */
+}
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+.slick-slide {
+  width: 100% !important; /* Make sure width is not controlled by Slick */
+}
+.slick-arrow {
+  display: none !important;
+}
+/* Style the tools & technologies section */
+.project-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-tech-stack span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
 }
 
 .blog-slick-activation {
